@@ -79,7 +79,6 @@ func partTwo() {
 
 		var callibrationVal int
 
-		fmt.Println(line)
 		for i := 0; i < len(runes); i++ {
 			if unicode.IsDigit(runes[i]) {
 				leftNum, _ = strconv.Atoi(string(runes[i]))
